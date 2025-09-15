@@ -1,13 +1,10 @@
 import type React from "react"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
 import "../globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageSwitcher } from "@/components/language-switcher"
-import { notFound } from "next/navigation"
 import { getTranslations } from "@/lib/translations"
 
-const locales = ["da", "en", "de", "fr", "es"] as const
+const locales = ["en", "da", "de", "fr"] as const
 type Locale = (typeof locales)[number]
 
 
