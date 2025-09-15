@@ -1,8 +1,5 @@
-import { Heart, Globe, Code, Shield } from "lucide-react"
+import { Heart } from "lucide-react"
 import { getTranslations } from "@/lib/translations"
-import { Button } from "@/components/ui/button"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
 
 function renderHighlightedText(text: string, highlights: string[]) {
